@@ -1,0 +1,118 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# Jupyter Notebook Server
+.jupyter/
+jupyter_notebook_config.py
+profile_default/
+
+# IPython
+.ipython/
+
+# Data Files (sensitive / large raw data — keep processed only)
+# Uncomment if you want to exclude raw CSVs from version control:
+# *.csv
+
+# Distribution / Packaging
+*.manifest
+*.spec
+MANIFEST
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment & Secrets
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+*.env
+*.pem
+*.key
+secrets.json
+
+# Logs & Debugging
+*.log
+*.out
+*.err
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary Files
+tmp/
+temp/
+.temp/
+*.tmp
+*.bak
+*.backup
+
+# Coverage & Testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+*.test
+
+# MyPy / Type Checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Rope (Refactoring)
+.ropeproject
+
+# Documentation Builds
+docs/_build/
+site/
+_site/
+
+# Scripts (Generator scripts not needed for consumers)
+create_notebook.py
